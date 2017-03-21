@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A96D84D11E815D7300FB22D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D84D01E815D7300FB22D2 /* AppDelegate.swift */; };
+		A96D84D31E815D7300FB22D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D84D21E815D7300FB22D2 /* ViewController.swift */; };
+		A96D84D61E815D7300FB22D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96D84D41E815D7300FB22D2 /* Main.storyboard */; };
+		A96D84D81E815D7300FB22D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96D84D71E815D7300FB22D2 /* Assets.xcassets */; };
+		A96D84DB1E815D7300FB22D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96D84D91E815D7300FB22D2 /* LaunchScreen.storyboard */; };
+		A96D84E61E815D7500FB22D2 /* PratikMMDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D84E51E815D7500FB22D2 /* PratikMMDrawerTests.swift */; };
+		A96D84F11E815D7500FB22D2 /* PratikMMDrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D84F01E815D7500FB22D2 /* PratikMMDrawerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A96D84E21E815D7500FB22D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96D84C51E815D7300FB22D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96D84CC1E815D7300FB22D2;
+			remoteInfo = PratikMMDrawer;
+		};
+		A96D84ED1E815D7500FB22D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96D84C51E815D7300FB22D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96D84CC1E815D7300FB22D2;
+			remoteInfo = PratikMMDrawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A96D84CD1E815D7300FB22D2 /* PratikMMDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PratikMMDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96D84D01E815D7300FB22D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A96D84D21E815D7300FB22D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A96D84D51E815D7300FB22D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A96D84D71E815D7300FB22D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A96D84DA1E815D7300FB22D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A96D84DC1E815D7300FB22D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96D84E11E815D7500FB22D2 /* PratikMMDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PratikMMDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96D84E51E815D7500FB22D2 /* PratikMMDrawerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PratikMMDrawerTests.swift; sourceTree = "<group>"; };
+		A96D84E71E815D7500FB22D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96D84EC1E815D7500FB22D2 /* PratikMMDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PratikMMDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96D84F01E815D7500FB22D2 /* PratikMMDrawerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PratikMMDrawerUITests.swift; sourceTree = "<group>"; };
+		A96D84F21E815D7500FB22D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A96D84CA1E815D7300FB22D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96D84DE1E815D7500FB22D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96D84E91E815D7500FB22D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A96D84C41E815D7300FB22D2 = {
+			isa = PBXGroup;
+			children = (
+				A96D84CF1E815D7300FB22D2 /* PratikMMDrawer */,
+				A96D84E41E815D7500FB22D2 /* PratikMMDrawerTests */,
+				A96D84EF1E815D7500FB22D2 /* PratikMMDrawerUITests */,
+				A96D84CE1E815D7300FB22D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A96D84CE1E815D7300FB22D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A96D84CD1E815D7300FB22D2 /* PratikMMDrawer.app */,
+				A96D84E11E815D7500FB22D2 /* PratikMMDrawerTests.xctest */,
+				A96D84EC1E815D7500FB22D2 /* PratikMMDrawerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A96D84CF1E815D7300FB22D2 /* PratikMMDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				A96D84D01E815D7300FB22D2 /* AppDelegate.swift */,
+				A96D84D21E815D7300FB22D2 /* ViewController.swift */,
+				A96D84D41E815D7300FB22D2 /* Main.storyboard */,
+				A96D84D71E815D7300FB22D2 /* Assets.xcassets */,
+				A96D84D91E815D7300FB22D2 /* LaunchScreen.storyboard */,
+				A96D84DC1E815D7300FB22D2 /* Info.plist */,
+			);
+			path = PratikMMDrawer;
+			sourceTree = "<group>";
+		};
+		A96D84E41E815D7500FB22D2 /* PratikMMDrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A96D84E51E815D7500FB22D2 /* PratikMMDrawerTests.swift */,
+				A96D84E71E815D7500FB22D2 /* Info.plist */,
+			);
+			path = PratikMMDrawerTests;
+			sourceTree = "<group>";
+		};
+		A96D84EF1E815D7500FB22D2 /* PratikMMDrawerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A96D84F01E815D7500FB22D2 /* PratikMMDrawerUITests.swift */,
+				A96D84F21E815D7500FB22D2 /* Info.plist */,
+			);
+			path = PratikMMDrawerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A96D84CC1E815D7300FB22D2 /* PratikMMDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96D84F51E815D7500FB22D2 /* Build configuration list for PBXNativeTarget "PratikMMDrawer" */;
+			buildPhases = (
+				A96D84C91E815D7300FB22D2 /* Sources */,
+				A96D84CA1E815D7300FB22D2 /* Frameworks */,
+				A96D84CB1E815D7300FB22D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PratikMMDrawer;
+			productName = PratikMMDrawer;
+			productReference = A96D84CD1E815D7300FB22D2 /* PratikMMDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A96D84E01E815D7500FB22D2 /* PratikMMDrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96D84F81E815D7500FB22D2 /* Build configuration list for PBXNativeTarget "PratikMMDrawerTests" */;
+			buildPhases = (
+				A96D84DD1E815D7500FB22D2 /* Sources */,
+				A96D84DE1E815D7500FB22D2 /* Frameworks */,
+				A96D84DF1E815D7500FB22D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A96D84E31E815D7500FB22D2 /* PBXTargetDependency */,
+			);
+			name = PratikMMDrawerTests;
+			productName = PratikMMDrawerTests;
+			productReference = A96D84E11E815D7500FB22D2 /* PratikMMDrawerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A96D84EB1E815D7500FB22D2 /* PratikMMDrawerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96D84FB1E815D7500FB22D2 /* Build configuration list for PBXNativeTarget "PratikMMDrawerUITests" */;
+			buildPhases = (
+				A96D84E81E815D7500FB22D2 /* Sources */,
+				A96D84E91E815D7500FB22D2 /* Frameworks */,
+				A96D84EA1E815D7500FB22D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A96D84EE1E815D7500FB22D2 /* PBXTargetDependency */,
+			);
+			name = PratikMMDrawerUITests;
+			productName = PratikMMDrawerUITests;
+			productReference = A96D84EC1E815D7500FB22D2 /* PratikMMDrawerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A96D84C51E815D7300FB22D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = pratik;
+				TargetAttributes = {
+					A96D84CC1E815D7300FB22D2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = NSX254PG58;
+						ProvisioningStyle = Automatic;
+					};
+					A96D84E01E815D7500FB22D2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = NSX254PG58;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A96D84CC1E815D7300FB22D2;
+					};
+					A96D84EB1E815D7500FB22D2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = NSX254PG58;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A96D84CC1E815D7300FB22D2;
+					};
+				};
+			};
+			buildConfigurationList = A96D84C81E815D7300FB22D2 /* Build configuration list for PBXProject "PratikMMDrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A96D84C41E815D7300FB22D2;
+			productRefGroup = A96D84CE1E815D7300FB22D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A96D84CC1E815D7300FB22D2 /* PratikMMDrawer */,
+				A96D84E01E815D7500FB22D2 /* PratikMMDrawerTests */,
+				A96D84EB1E815D7500FB22D2 /* PratikMMDrawerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A96D84CB1E815D7300FB22D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96D84DB1E815D7300FB22D2 /* LaunchScreen.storyboard in Resources */,
+				A96D84D81E815D7300FB22D2 /* Assets.xcassets in Resources */,
+				A96D84D61E815D7300FB22D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96D84DF1E815D7500FB22D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96D84EA1E815D7500FB22D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A96D84C91E815D7300FB22D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96D84D31E815D7300FB22D2 /* ViewController.swift in Sources */,
+				A96D84D11E815D7300FB22D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96D84DD1E815D7500FB22D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96D84E61E815D7500FB22D2 /* PratikMMDrawerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96D84E81E815D7500FB22D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96D84F11E815D7500FB22D2 /* PratikMMDrawerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A96D84E31E815D7500FB22D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96D84CC1E815D7300FB22D2 /* PratikMMDrawer */;
+			targetProxy = A96D84E21E815D7500FB22D2 /* PBXContainerItemProxy */;
+		};
+		A96D84EE1E815D7500FB22D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96D84CC1E815D7300FB22D2 /* PratikMMDrawer */;
+			targetProxy = A96D84ED1E815D7500FB22D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A96D84D41E815D7300FB22D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96D84D51E815D7300FB22D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A96D84D91E815D7300FB22D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96D84DA1E815D7300FB22D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A96D84F31E815D7500FB22D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A96D84F41E815D7500FB22D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A96D84F61E815D7500FB22D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NSX254PG58;
+				INFOPLIST_FILE = PratikMMDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pratik.PratikMMDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A96D84F71E815D7500FB22D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NSX254PG58;
+				INFOPLIST_FILE = PratikMMDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pratik.PratikMMDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A96D84F91E815D7500FB22D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NSX254PG58;
+				INFOPLIST_FILE = PratikMMDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pratik.PratikMMDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PratikMMDrawer.app/PratikMMDrawer";
+			};
+			name = Debug;
+		};
+		A96D84FA1E815D7500FB22D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NSX254PG58;
+				INFOPLIST_FILE = PratikMMDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pratik.PratikMMDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PratikMMDrawer.app/PratikMMDrawer";
+			};
+			name = Release;
+		};
+		A96D84FC1E815D7500FB22D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NSX254PG58;
+				INFOPLIST_FILE = PratikMMDrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pratik.PratikMMDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PratikMMDrawer;
+			};
+			name = Debug;
+		};
+		A96D84FD1E815D7500FB22D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NSX254PG58;
+				INFOPLIST_FILE = PratikMMDrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pratik.PratikMMDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PratikMMDrawer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A96D84C81E815D7300FB22D2 /* Build configuration list for PBXProject "PratikMMDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96D84F31E815D7500FB22D2 /* Debug */,
+				A96D84F41E815D7500FB22D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96D84F51E815D7500FB22D2 /* Build configuration list for PBXNativeTarget "PratikMMDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96D84F61E815D7500FB22D2 /* Debug */,
+				A96D84F71E815D7500FB22D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A96D84F81E815D7500FB22D2 /* Build configuration list for PBXNativeTarget "PratikMMDrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96D84F91E815D7500FB22D2 /* Debug */,
+				A96D84FA1E815D7500FB22D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A96D84FB1E815D7500FB22D2 /* Build configuration list for PBXNativeTarget "PratikMMDrawerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96D84FC1E815D7500FB22D2 /* Debug */,
+				A96D84FD1E815D7500FB22D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A96D84C51E815D7300FB22D2 /* Project object */;
+}

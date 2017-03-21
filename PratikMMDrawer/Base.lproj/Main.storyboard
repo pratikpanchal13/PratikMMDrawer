@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="Ycf-aJ-4QB">
             <objects>
-                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="g13-Em-gSb" customClass="ViewController" customModule="PatrickSideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="g13-Em-gSb" customClass="ViewController" customModule="PratikMMDrawer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mcj-72-AkG"/>
                         <viewControllerLayoutGuide type="bottom" id="QBb-J2-wwG"/>
@@ -32,8 +32,16 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="p3y-k3-1Xh">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="M4U-gK-aT9"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="3jy-41-D3n"/>
+                        <barButtonItem key="leftBarButtonItem" title="&lt;" id="M4U-gK-aT9">
+                            <connections>
+                                <action selector="btnLeftSideTapped:" destination="g13-Em-gSb" id="ifp-3D-M9w"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="&gt;" id="3jy-41-D3n">
+                            <connections>
+                                <action selector="btnRightideTapped:" destination="g13-Em-gSb" id="OLx-xn-IIK"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M49-CY-fES" sceneMemberID="firstResponder"/>
@@ -43,7 +51,7 @@
         <!--Left Side View Controller-->
         <scene sceneID="KlW-k9-fT6">
             <objects>
-                <viewController storyboardIdentifier="LeftSideViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Le3-Nw-ijO" customClass="LeftSideViewController" customModule="PatrickSideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LeftSideViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Le3-Nw-ijO" customClass="LeftSideViewController" customModule="PratikMMDrawer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kYu-LV-XuC"/>
                         <viewControllerLayoutGuide type="bottom" id="Iqx-ge-xCp"/>
@@ -70,7 +78,7 @@
         <!--Right Side View Controller-->
         <scene sceneID="rJc-mg-Gls">
             <objects>
-                <viewController storyboardIdentifier="RightSideViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="b2z-a3-UKp" customClass="RightSideViewController" customModule="PatrickSideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RightSideViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="b2z-a3-UKp" customClass="RightSideViewController" customModule="PratikMMDrawer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BX1-L7-V3G"/>
                         <viewControllerLayoutGuide type="bottom" id="12f-fl-vEK"/>

@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var appDelegate : AppDelegate = UIApplication.shared.delegate as! AppDelegate
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +22,12 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func btnLeftSideTapped(_ sender: Any) {
+        appDelegate.centerContainer!.toggle(MMDrawerSide.left, animated: true, completion: nil)
+    }
+    
+    @IBAction func btnRightideTapped(_ sender: Any) {
+        appDelegate.centerContainer!.toggle(MMDrawerSide.right, animated: true, completion: nil)
+    }
 }
 

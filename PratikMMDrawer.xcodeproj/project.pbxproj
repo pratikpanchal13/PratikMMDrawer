@@ -20,6 +20,8 @@
 		A96D850C1E815D9C00FB22D2 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D85081E815D9C00FB22D2 /* UIViewController+MMDrawerController.m */; };
 		A96D850F1E815DF000FB22D2 /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D850D1E815DF000FB22D2 /* LeftSideViewController.swift */; };
 		A96D85101E815DF000FB22D2 /* RightSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D850E1E815DF000FB22D2 /* RightSideViewController.swift */; };
+		A96D85141E81642400FB22D2 /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D85131E81642400FB22D2 /* MyCustomTableViewCell.swift */; };
+		A96D85161E81654400FB22D2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D85151E81654400FB22D2 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		A96D85081E815D9C00FB22D2 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
 		A96D850D1E815DF000FB22D2 /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
 		A96D850E1E815DF000FB22D2 /* RightSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightSideViewController.swift; sourceTree = "<group>"; };
+		A96D85131E81642400FB22D2 /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
+		A96D85151E81654400FB22D2 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,7 @@
 		A96D84FE1E815D9000FB22D2 /* MySideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				A96D85131E81642400FB22D2 /* MyCustomTableViewCell.swift */,
 				A96D850D1E815DF000FB22D2 /* LeftSideViewController.swift */,
 				A96D850E1E815DF000FB22D2 /* RightSideViewController.swift */,
 				A96D85001E815D9C00FB22D2 /* MMDrawerBarButtonItem.h */,
@@ -159,6 +164,7 @@
 				A96D85071E815D9C00FB22D2 /* UIViewController+MMDrawerController.h */,
 				A96D85081E815D9C00FB22D2 /* UIViewController+MMDrawerController.m */,
 				A96D84FF1E815D9B00FB22D2 /* PratikMMDrawer-Bridging-Header.h */,
+				A96D85151E81654400FB22D2 /* AboutViewController.swift */,
 			);
 			name = MySideMenu;
 			sourceTree = "<group>";
@@ -306,8 +312,10 @@
 				A96D85101E815DF000FB22D2 /* RightSideViewController.swift in Sources */,
 				A96D84D31E815D7300FB22D2 /* ViewController.swift in Sources */,
 				A96D85091E815D9C00FB22D2 /* MMDrawerBarButtonItem.m in Sources */,
+				A96D85141E81642400FB22D2 /* MyCustomTableViewCell.swift in Sources */,
 				A96D850C1E815D9C00FB22D2 /* UIViewController+MMDrawerController.m in Sources */,
 				A96D850A1E815D9C00FB22D2 /* MMDrawerController.m in Sources */,
+				A96D85161E81654400FB22D2 /* AboutViewController.swift in Sources */,
 				A96D84D11E815D7300FB22D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

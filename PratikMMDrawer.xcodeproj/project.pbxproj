@@ -14,6 +14,12 @@
 		A96D84DB1E815D7300FB22D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96D84D91E815D7300FB22D2 /* LaunchScreen.storyboard */; };
 		A96D84E61E815D7500FB22D2 /* PratikMMDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D84E51E815D7500FB22D2 /* PratikMMDrawerTests.swift */; };
 		A96D84F11E815D7500FB22D2 /* PratikMMDrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D84F01E815D7500FB22D2 /* PratikMMDrawerUITests.swift */; };
+		A96D85091E815D9C00FB22D2 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D85011E815D9C00FB22D2 /* MMDrawerBarButtonItem.m */; };
+		A96D850A1E815D9C00FB22D2 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D85031E815D9C00FB22D2 /* MMDrawerController.m */; };
+		A96D850B1E815D9C00FB22D2 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D85061E815D9C00FB22D2 /* MMDrawerVisualState.m */; };
+		A96D850C1E815D9C00FB22D2 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D85081E815D9C00FB22D2 /* UIViewController+MMDrawerController.m */; };
+		A96D850F1E815DF000FB22D2 /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D850D1E815DF000FB22D2 /* LeftSideViewController.swift */; };
+		A96D85101E815DF000FB22D2 /* RightSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96D850E1E815DF000FB22D2 /* RightSideViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,18 @@
 		A96D84EC1E815D7500FB22D2 /* PratikMMDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PratikMMDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96D84F01E815D7500FB22D2 /* PratikMMDrawerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PratikMMDrawerUITests.swift; sourceTree = "<group>"; };
 		A96D84F21E815D7500FB22D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96D84FF1E815D9B00FB22D2 /* PratikMMDrawer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PratikMMDrawer-Bridging-Header.h"; sourceTree = "<group>"; };
+		A96D85001E815D9C00FB22D2 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		A96D85011E815D9C00FB22D2 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		A96D85021E815D9C00FB22D2 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		A96D85031E815D9C00FB22D2 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		A96D85041E815D9C00FB22D2 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		A96D85051E815D9C00FB22D2 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		A96D85061E815D9C00FB22D2 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		A96D85071E815D9C00FB22D2 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		A96D85081E815D9C00FB22D2 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		A96D850D1E815DF000FB22D2 /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+		A96D850E1E815DF000FB22D2 /* RightSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightSideViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,7 @@
 		A96D84CF1E815D7300FB22D2 /* PratikMMDrawer */ = {
 			isa = PBXGroup;
 			children = (
+				A96D84FE1E815D9000FB22D2 /* MySideMenu */,
 				A96D84D01E815D7300FB22D2 /* AppDelegate.swift */,
 				A96D84D21E815D7300FB22D2 /* ViewController.swift */,
 				A96D84D41E815D7300FB22D2 /* Main.storyboard */,
@@ -123,6 +142,25 @@
 				A96D84F21E815D7500FB22D2 /* Info.plist */,
 			);
 			path = PratikMMDrawerUITests;
+			sourceTree = "<group>";
+		};
+		A96D84FE1E815D9000FB22D2 /* MySideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A96D850D1E815DF000FB22D2 /* LeftSideViewController.swift */,
+				A96D850E1E815DF000FB22D2 /* RightSideViewController.swift */,
+				A96D85001E815D9C00FB22D2 /* MMDrawerBarButtonItem.h */,
+				A96D85011E815D9C00FB22D2 /* MMDrawerBarButtonItem.m */,
+				A96D85021E815D9C00FB22D2 /* MMDrawerController.h */,
+				A96D85031E815D9C00FB22D2 /* MMDrawerController.m */,
+				A96D85041E815D9C00FB22D2 /* MMDrawerController+Subclass.h */,
+				A96D85051E815D9C00FB22D2 /* MMDrawerVisualState.h */,
+				A96D85061E815D9C00FB22D2 /* MMDrawerVisualState.m */,
+				A96D85071E815D9C00FB22D2 /* UIViewController+MMDrawerController.h */,
+				A96D85081E815D9C00FB22D2 /* UIViewController+MMDrawerController.m */,
+				A96D84FF1E815D9B00FB22D2 /* PratikMMDrawer-Bridging-Header.h */,
+			);
+			name = MySideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +232,7 @@
 					A96D84CC1E815D7300FB22D2 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = NSX254PG58;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					A96D84E01E815D7500FB22D2 = {
@@ -262,7 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96D850B1E815D9C00FB22D2 /* MMDrawerVisualState.m in Sources */,
+				A96D850F1E815DF000FB22D2 /* LeftSideViewController.swift in Sources */,
+				A96D85101E815DF000FB22D2 /* RightSideViewController.swift in Sources */,
 				A96D84D31E815D7300FB22D2 /* ViewController.swift in Sources */,
+				A96D85091E815D9C00FB22D2 /* MMDrawerBarButtonItem.m in Sources */,
+				A96D850C1E815D9C00FB22D2 /* UIViewController+MMDrawerController.m in Sources */,
+				A96D850A1E815D9C00FB22D2 /* MMDrawerController.m in Sources */,
 				A96D84D11E815D7300FB22D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,11 +460,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = NSX254PG58;
 				INFOPLIST_FILE = PratikMMDrawer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pratik.PratikMMDrawer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PratikMMDrawer/PratikMMDrawer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,11 +476,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = NSX254PG58;
 				INFOPLIST_FILE = PratikMMDrawer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pratik.PratikMMDrawer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PratikMMDrawer/PratikMMDrawer-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

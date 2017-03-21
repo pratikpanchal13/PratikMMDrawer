@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  PratikMMDrawer
+//  PatrickSideMenu
 //
 //  Created by indianic on 21/03/17.
 //  Copyright © 2017 pratik. All rights reserved.

@@ -18,21 +18,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        var rootViewController = self.window?.rootViewController
+        let rootViewController = self.window?.rootViewController
         let mainStoryboard :UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         
         
-        var centerViewController = mainStoryboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
-        var leftViewController = mainStoryboard.instantiateViewController(withIdentifier: "LeftSideViewController") as! LeftSideViewController
-        var rightViewController = mainStoryboard.instantiateViewController(withIdentifier: "RightSideViewController") as! RightSideViewController
+        let centerViewController = mainStoryboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        let leftViewController = mainStoryboard.instantiateViewController(withIdentifier: "LeftSideViewController") as! LeftSideViewController
+        let rightViewController = mainStoryboard.instantiateViewController(withIdentifier: "RightSideViewController") as! RightSideViewController
         
-        var leftSideNav = UINavigationController(rootViewController: leftViewController)
-        var centerNav = UINavigationController(rootViewController: centerViewController)
-        var rightNav = UINavigationController(rootViewController: rightViewController)
+        let leftSideNav = UINavigationController(rootViewController: leftViewController)
+        let centerNav = UINavigationController(rootViewController: centerViewController)
+        let rightNav = UINavigationController(rootViewController: rightViewController)
         
-        centerContainer = MMDrawerController(center: centerNav, leftDrawerViewController: leftSideNav,rightDrawerViewController:rightNav)
-        centerContainer!.openDrawerGestureModeMask = MMOpenDrawerGestureMode.panningCenterView;
-        centerContainer!.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.panningCenterView;
+        centerContainer = MMDrawerController(center: centerNav, leftDrawerViewController: leftSideNav,rightDrawerViewController:nil)
+//        centerContainer!.openDrawerGestureModeMask = MMOpenDrawerGestureMode.panningCenterView;
+//        centerContainer!.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.panningCenterView;
+        
+        
+        
+        centerContainer?.setMaximumLeftDrawerWidth((self.window?.frame.size.width)! * 0.8, animated: false, completion: nil)
+        centerContainer?.restorationIdentifier = "MMDrawer"
+        centerContainer?.openDrawerGestureModeMask = .all
+        centerContainer?.closeDrawerGestureModeMask = .all
+        centerContainer?.showsShadow = true
+        centerContainer?.shadowColor = UIColor.gray
+        
         
         window!.rootViewController = centerContainer
         window!.makeKeyAndVisible()
